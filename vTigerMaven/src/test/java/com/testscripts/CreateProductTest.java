@@ -14,7 +14,7 @@ import com.vTigerLogin.base;
 public class CreateProductTest extends base
 {
 	
-	createVendorTest cv = new createVendorTest();
+	//createVendorTest cv = new createVendorTest();
 	
 	/**
 	 * This method is used to create Products
@@ -22,7 +22,7 @@ public class CreateProductTest extends base
 	@Test
 	public void products()
 	{
-		cv.createVendor();
+		//cv.createVendor();
 		
 		WebElement wb = null;
 //		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
