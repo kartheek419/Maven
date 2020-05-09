@@ -25,18 +25,18 @@ public class CreateProductTest extends base
 		//cv.createVendor();
 		
 		WebElement wb = null;
-//		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-//		//Navigate to More
-//		wb =driver.findElement(By.xpath("//a[@href='javascript:;']")); 
-//		lib.navigate(wb,driver);
-//		//Click on Vendors
-//		driver.findElement(By.name("Vendors")).click();
-//		//Click on Create Vendor icon
-//		driver.findElement(By.xpath("//img[@alt='Create Vendor...']")).click();
-//		//Enter vendor Name
-//		driver.findElement(By.name("vendorname")).sendKeys(lib.getExcelData("Vendor Name", "Vendor"));
-//		//Click on Save
-//		driver.findElement(By.xpath("//input[@type='submit']")).click();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		//Navigate to More
+		wb =driver.findElement(By.xpath("//a[@href='javascript:;']")); 
+		lib.navigate(wb,driver);
+		//Click on Vendors
+		driver.findElement(By.name("Vendors")).click();
+		//Click on Create Vendor icon
+		driver.findElement(By.xpath("//img[@alt='Create Vendor...']")).click();
+		//Enter vendor Name
+		driver.findElement(By.name("vendorname")).sendKeys(lib.getExcelData("Vendor Name", "Vendor"));
+		//Click on Save
+		driver.findElement(By.xpath("//input[@type='submit']")).click();
 		
 		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
